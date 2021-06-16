@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="container mb-5 p-5">
+    <div class="row justify-content-center align-center">
+        <div class="col-md-6 mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Adresse mail :</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6 mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mot de passe :</label>
+          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Votre mot de passe">
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-6 mb-3">
+            <button type="button" class="btn btn-success">Se connecter</button>
+        </div>
+    </div>
+    <p>Not registered yet ?</p>
+    <a href="account/register">Click here</a>
+</div>
+
+
+{% endblock content %}
